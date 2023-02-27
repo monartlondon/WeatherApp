@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link rel="stylesheet" href="style.css"/>
+        <meta charset="utf-8">
+        <meta name="Description" content="WeatherApp">
+        <meta name="keywords" content="HTML,CSS,JS">
+        <meta name="author" content="Monica D'Agosto">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+        <title>WeatherAppUniAssignment</title>
+    </head>
+
+     <!--body-->
+    <body>
+        <div><h1>Wish you were here?</h1></div>
+        <div class ="card">
+        <div class="app-wrap">
+          <header>
+              <form id="form">
+              <input id="input-city" type="text" autocomplete="off" class="search-box" placeholder="Search for a city..." />
+              <div>
+                <button type="submit">Search</button>
+              </div>
+            </form>
+          </header>
+          <main>
+              <section class="location">
+                <div id="city" class="city"> </div>
+                <div id="date" class="date"> </div>
+              </section>
+              <div class="current">
+                  <div id="temp-display" class="temp"> </div>
+                  <div id="weather-description" class="weather"> </div>
+                  <div id="low-temp" class="hi-low"> </div>
+                  <div id="high-temp" class="hi-low"> </div>
+              </div>
+          </main>
+        </div>
+    </div>
+        <script src="script.js"></script> 
+    </body>
+
+     <!--footer-->
+     <footer>
+        <p class="footer">&copy; Monica D'Agosto<p>
+    </footer>
+    </html>
